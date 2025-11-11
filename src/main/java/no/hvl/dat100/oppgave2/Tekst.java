@@ -32,7 +32,7 @@ public class Tekst extends Innlegg {
 
 	@Override
 	public String toString() {
-		return "Tekst\n" + super.toString() + tekst + "\n";
+		return "TEKST\n" + super.toString() + tekst + "\n";
 
 	}
 	

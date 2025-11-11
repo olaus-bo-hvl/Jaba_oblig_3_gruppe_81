@@ -26,9 +26,15 @@ public class Bilde extends Tekst {
 
 
 	@Override
-	public String toString() {
-		return "Bilde/n" + super.toString() + url + "\n";
-	}
+    public String toString() {
+        return "BILDE\n" +
+                getId() + "\n" +
+                getBruker() + "\n" +
+                getDato() + "\n" +
+                getLikes() + "\n" +
+                getTekst() + "\n" +
+                url + "\n";
+    }
 
 	// Metoden nedenfor er kun for valgfri oppgave 6
 	public String toHTML() {
